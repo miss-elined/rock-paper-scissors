@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto Mono", serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* gap: 50px; */
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 50px 0 30px 0;
+}
+
+button {
+  color: aliceblue;
+  background-color: tomato;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-family: "Roboto Mono", serif;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgb(255, 130, 108);
+}
+
+#reset {
+  background-color: rgb(209, 36, 5);
+}
+
+#reset:hover {
+  background-color: rgb(209, 76, 52);
+}
+
+#results {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+#end {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+#reset {
+  /* display: flex;
+  justify-content: center; */
+  align-self: center;
+}
